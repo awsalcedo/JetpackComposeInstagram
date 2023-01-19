@@ -27,12 +27,14 @@ class MainActivity : ComponentActivity() {
             JetpackComposeInstagramTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
+                    //modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
                     /*TODO hacer con inyección de dependencias*/
                     //LoginScreen(LoginViewModel())
-                    LoginScreen(loginViewModel)
+                    //LoginScreen(loginViewModel)
+                    //ColorAnimationSimple()
+                    SizeAnimation()
                 }
             }
         }
